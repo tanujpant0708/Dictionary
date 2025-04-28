@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="app-header">
+      <img src="dictionarylogo.webp" alt="Dictionary Logo" />
+      <h1>Dictionary</h1>
+      <p>Search for any word and get its meaning instantly!</p>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="wordInput" placeholder="Enter a word..." />
+      <button onclick="getDefinition()">
+        <img src="search.png" alt="Search Icon" />
+        Search
+      </button>
+    </div>
+
+    <div id="definition" class="definition-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
